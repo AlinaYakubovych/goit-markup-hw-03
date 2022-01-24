@@ -56,9 +56,23 @@ h6{
   width: 1230px;
 }
 
+.section{
+padding-top: 94px;
+padding-bottom: 94px;
+}
+
+.btn{
+  cursor: pointer;
+}
+
+.container{
+  outline: 2px solid tomato;
+}
 
 
-/*----------------------- HEADER------------------ */
+
+
+/*-------------------------------------------------------------HEADER------------------------------------------------------------- */
 .header{
 border: 1px solid #ECECEC;
 }
@@ -67,12 +81,11 @@ border: 1px solid #ECECEC;
   display: flex;
 }
 
-.navigation{
+.header-navigation{
   display: flex;
   align-items: center;
 }
   
-
 .header-item{
   margin-right: 50px;
 }
@@ -80,10 +93,12 @@ border: 1px solid #ECECEC;
 .header-item:last-child{
   margin: 0;
 }
+
 .header-address{
   margin-left: auto;
   display: flex;
 }
+
 .header-address-link .item + .item{
   margin-left: 50px;
 }
@@ -100,17 +115,6 @@ border: 1px solid #ECECEC;
 .logo{
    margin-right: 93px;
 }
-.hero-list{
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.hero-item{
-  width: 300px;
-  background-color: tomato ;
-}
-
-
 
 .logo-title {
 font-family: Raleway;
@@ -120,6 +124,7 @@ font-size: 26px;
 line-height: 1.19;
 color: #2196F3;
 }
+
 .logo {
   font-family: Raleway;
   font-style: normal;
@@ -137,7 +142,6 @@ letter-spacing: 0.02em;
 color: #212121;
 }
   
-
 .header-link:hover{
   color: #2196F3;
 }
@@ -152,25 +156,33 @@ color: #212121;
   letter-spacing: 0.02em;
   color: var(--header-adress-color);
 }
+
 .header-address-link:hover{
   color: #2196F3;
 }
+
 .header-address-link:focus{
   color: #2196F3;
 }
 
 
 
-/* -------------------------HERO---------------- */
-.section{
-padding-top: 94px;
-padding-bottom: 94px;
+/* ---------------------------------------------------------HERO------------------------------------------------------------------ */
+.hero-item{
+  width: 300px;
+  background-color: tomato ;
+}
+
+.hero-list{
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .hero{
   background-color: #2F303A;
   text-align: center;
 }
+
 .hero-title{
 margin-bottom: 30px;  
 font-weight: 900;
@@ -180,6 +192,7 @@ letter-spacing: 0.06em;
 text-transform: uppercase;
 color: var(--first-title-color)
 }
+
 .btn{
 display: inline-block;
 border-radius: 4px;
@@ -211,6 +224,8 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 color: #757575;
 }
+
+/* ----------------------------------------------------------EXAMPLE------------------------------------------------------------------- */
 .examle-title{
 margin-bottom: 50px;
 font-family: Roboto;
@@ -222,7 +237,7 @@ text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
 }
-
+/* ---------------------------------------------------------ABOUT--------------------------------------------------------------------------- */
 .about{
   background: #F5F4FA;
 }
@@ -236,6 +251,7 @@ text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
 }
+
 .about-second-title{
 margin-bottom: 10px;
 font-weight: 500;
@@ -245,6 +261,7 @@ text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
 }
+
 .about-text{
  font-size: 16px;
 line-height: 1.18;
@@ -252,15 +269,12 @@ text-align: center;
 letter-spacing: 0.03em;
 color: #757575;
 }
-.btn{
-  cursor: pointer;
-}
 
 .about-img{
 margin-bottom: 30px;
 }
 
-/* -----------------------------FOTER----------------------- */
+/* ------------------------------------------------------FOTER-------------------------------------------------------------- */
 .footer-part-title{
 display: inline-block;
 margin-bottom: 20px;
@@ -343,7 +357,7 @@ color: rgba(255, 255, 255, 0.6);
   list-style: none;
 }
 
-/* -------------------PORTFOLIO ---------*/
+/* -------------------FILTER---------*/
 
 .filter-btn{
 display: inline-block;
@@ -364,12 +378,6 @@ border: 1px solid transparent;
   display: flex;
 }
 
-
-
-.container{
-  outline: 2px solid tomato;
-}
-
 .filter-second-title{
 margin-top: 20px;
 font-family: Roboto;
@@ -385,7 +393,6 @@ color: #212121;
 margin-top: 30px;
 }
 
-
 .filter-text{
 margin-top: 4px;
 font-family: Roboto;
@@ -396,11 +403,13 @@ line-height: 1.87;
 letter-spacing: 0.03em;
 color: #757575;
 }
+
 .filter-btn:focus,
 .filter-btn:hover{
   color: #FFFFFF;;
   background: #2196F3;
 }
+
 .filter-btn{
   cursor: pointer;
 }
