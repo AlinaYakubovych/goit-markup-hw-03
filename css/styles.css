@@ -170,7 +170,13 @@ color: #212121;
 
 .hero-item{
   width: 270px;
+  }
+
+.hero-item:not(:last-child){
+margin-right: 30px;
 }
+
+
 
 .hero-list{
   display: flex;
@@ -435,6 +441,7 @@ border-bottom-color: #EEEEEE;
   }
 
 
+
 .filter-btn{
 display: inline-block;
 padding: 6px 22px;
@@ -457,7 +464,6 @@ border: 1px solid transparent;
 }
 
 .filter-second-title{
-margin-top: 20px;
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
